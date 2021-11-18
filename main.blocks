@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="I:n|;]Ye$}+_Q:4HSq%n" x="0" y="0"/><block type="device_forever" id="R|{+g5z%lsN4]F=:w]W?" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="I:n|;]Ye$}+_Q:4HSq%n" x="0" y="0"><statement name="HANDLER"><block type="bluetooth_start_uart_service" id="oh~%/~;@s`{$}5Lep=Uq"><next><block type="bluetooth_settransmitpower" id="k[@)5jlTWK|81v?%-1!C"><value name="power"><shadow type="math_number" id="o4oWHPW.wbTXUk|Uy1ar"><field name="NUM">7</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="R|{+g5z%lsN4]F=:w]W?" x="341" y="1"/><block type="bluetooth_on_connected" id="IwoQYmvn2~-4QwV3D)?w" x="12" y="264"><statement name="HANDLER"><block type="device_show_leds" id="=,]x3u?4e5)m.[MEFl[Z"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="bluetooth_on_disconnected" id="*J,t!S+E{[r2+c}@][_;" x="17" y="656"><statement name="HANDLER"><block type="device_show_leds" id=",G$`rdfqJbz[`E+ucVkJ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement></block></xml>
